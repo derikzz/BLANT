@@ -184,7 +184,11 @@ typedef struct {
     double graphletConcentration[MAX_CANONICALS];
     double *graphletDegreeVector[MAX_CANONICALS];
     double *orbitDegreeVector[MAX_ORBITS];
+<<<<<<< HEAD
     int numSamples;
+=======
+    SET*** communityNeighbors;
+>>>>>>> 72d4f9b (Add community detection multithreading capabilities)
 } Accumulators;
 
 // a global array of accumulators, one for each thread, updated in batches
