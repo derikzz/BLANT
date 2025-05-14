@@ -824,7 +824,6 @@ static int RunBlantFromGraph(int k, unsigned long numSamples, GRAPH *G) {
                 }
                 }
             }
-            // Consolidate community neighbors
             if (_outputMode & communityDetection) {
 				switch(_communityMode) {
 					case 'o':
